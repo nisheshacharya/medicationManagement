@@ -1,0 +1,217 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+/* @import "~bootstrap-icons/font/bootstrap-icons.css" */
+
+.form-box {
+    height: 400px;
+    width: 400px;
+    align-content: center;
+    margin-left: 35%
+}
+.button_container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .button_container button {
+    flex: 1 0 8.33%; 
+    margin: 5px; 
+  }
+  
+  .footer-social li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .footer-logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .footer-copyright p {
+    font-size: 12px;
+    margin: 0;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .container > div {
+    margin: 5px;
+  }
+  
+  .btn-outline-secondary {
+    width: 80px;
+    height: 80px;
+  }
+
+  .header_bar {
+    background-color: rgb(55, 116, 247);
+    padding: 10px;
+    padding-left: 40%;
+  }
+  .search_button {
+    background-color: rgb(13, 147, 13);
+    color: white;
+  }
+  .header_buttons {
+    padding-left: 50%;
+  }
+  
+  .error_message {
+    color: red;
+    padding-bottom: 5px;
+  }
+  
+
+    header {
+      width: 100%;
+    }
+
+    .header_title {
+      width: 800px;
+      margin-left: -400px;
+      color: wheat;
+      display: inline-block;
+     
+    }
+    .header_image {
+      height: 70px;
+      border-radius: 50%;
+      display: inline-block;
+      margin: 8px;
+    }
+    .footer {
+      background-color: #f2f2f2;
+      padding: 20px;
+      
+    }
+  
+    .footer-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+   
+    .footer-logo {
+      width: 100px;
+      height: auto;
+    }
+    .footer_image {
+      border-radius: 50%;
+    }
+    
+    .footer-text {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    
+    .footer-social {
+      margin-top: 10px;
+    }
+    
+    .footer-social a {
+      margin-right: 10px;
+    }
+    
+    .footer-address {
+      font-size: 12px;
+      text-align: right;
+    }
+    .search{
+      width: 80%;
+      margin: 50px;
+    
+    }
+    .rating-list li {
+      float: right;
+      color: #ddd;
+      padding: 10px 5px;
+    
+    }
+    
+    .rating-list li:hover,
+    .rating-list li:hover ~ li, .rating-list li.selected {
+      color: #ffd700;
+    }
+    
+    .rating-list {
+      display: inline-block;
+      list-style: none;
+    }
+    .logout-button {
+      border: solid gray 2px;
+      border-radius: 15px;
+      padding: 5px;
+      margin: 5px;
+      color: white;
+      margin-top: -8px;
+    }
+   
+    .add-medication {
+     
+      border: solid gray 2px;
+      border-radius: 10px;
+      padding: 7px;
+      margin: 5px;
+      margin-bottom: -10px;
+    }
+    .add-medication-text  {
+      margin-bottom: -10px;
+      color: white;
+    }
+    .add-medication-text:hover {
+      border: solid wheat 1px;
+      color: wheat;
+    }
+    .logout-button:hover {
+      border: solid white 1px;
+      border-radius: 15px;
+      padding: 5px;
+      margin: 5px;
+      color: wheat;
+      margin-top: -8px;
+    }
+   
+    .signin-button {
+     
+        border: solid gray 2px;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 5px;
+        color: white;
+     
+    }
+ 
+    .signin-button:hover {
+      border: solid gray 1px;
+      border-radius: 15px;
+      padding: 5px;
+      margin: 5px;
+      color: wheat;
+   
+  }
+ 
+ 
+    .register-button {
+      border: solid gray 2px;
+        border-radius: 15px;
+        padding: 5px;
+        margin: 5px;
+        color: white;
+ 
+    }
+    .register-button:hover {
+      border: solid gray 1px;
+        border-radius: 15px;
+        padding: 5px;
+        margin: 5px;
+        color: wheat;
+ 
+    }
